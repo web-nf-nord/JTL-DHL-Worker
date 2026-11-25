@@ -1,0 +1,11 @@
+config.json
+production-credentials.json
+print-config.json
+Export/
+Import/
+Labels/
+Logs/
+State/
+Processed/
+Error/
+*.log
