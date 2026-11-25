@@ -14,7 +14,7 @@ Dies ist kein offizielles Produkt von JTL oder DHL.
 
 [Release-Seite und Version ansehen](https://github.com/web-nf-nord/JTL-DHL-Worker/releases/tag/v1.15-web-nf)
 
-Die erste Web-NF-Version ist als **Pre-release** veröffentlicht. Das ZIP-Paket enthält die weiterentwickelten Skripte und Installationsunterlagen. Der Hauptbranch enthält vorerst weiterhin die ursprüngliche Importbasis, **nicht** den vollständigen Stand aus dem ZIP.
+Die erste Web-NF-Version ist als **Pre-release** veröffentlicht. Das ZIP-Paket enthält die weiterentwickelten Skripte und Installationsunterlagen. Die [Text-Quelldateien der Web-NF-Version](web-nf-v1.15/) liegen jetzt auch einzeln im Repository. Der Hauptbranch enthält im Stammverzeichnis weiterhin die ursprüngliche Importbasis; die **v1.15-Weiterentwicklung liegt im Unterordner `web-nf-v1.15`**. Die binäre JTL-Vorlage `.vlg` ist im Release-ZIP enthalten. [Änderungen und Release-Hinweise](web-nf-v1.15/RELEASE_NOTES.md).
 
 **Web-NF-Erweiterungen:** CSV-Versanddatenrückgabe für JTL-Wawi statt direkter SQL-Schreibzugriffe (lesende SQL-Prüfungen bleiben erhalten), zusätzliche Versandarten einschließlich Warenpost International ohne Premium, vereinfachte Production-Zugangseinrichtung mit Zwischenablage sowie anonymisierte Konfigurationsbeispiele.
 
