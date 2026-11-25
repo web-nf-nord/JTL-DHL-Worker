@@ -1,0 +1,58 @@
+{
+  "Environment": "Sandbox",
+  "AuthMode": "OAuth2",
+  "ApiKey": "HIER_SANDBOX_API_KEY_EINTRAGEN",
+  "ApiSecret": "HIER_SANDBOX_API_SECRET_EINTRAGEN",
+  "Username": "HIER_SANDBOX_BENUTZERNAME_EINTRAGEN",
+  "Password": "HIER_SANDBOX_PASSWORT_EINTRAGEN",
+  "ProductionCredentialFile": "production-credentials.json",
+  "ProductionValidationEnabled": false,
+  "ProductionEnabled": false,
+  "AutoProductionEnabled": false,
+  "Profile": "STANDARD_GRUPPENPROFIL",
+  "ShipperRef": "Hier DHL Absenderreferenz eintragen",
+  "PrintFormat": "910-300-710",
+  "MustEncode": true,
+  "ExportPath": "C:\\JTL-DHL\\Export",
+  "ImportPath": "C:\\JTL-DHL\\Import",
+  "LabelPath": "C:\\JTL-DHL\\Labels",
+  "ProcessedPath": "C:\\JTL-DHL\\Processed",
+  "ErrorPath": "C:\\JTL-DHL\\Error",
+  "StatePath": "C:\\JTL-DHL\\State",
+  "LogPath": "C:\\JTL-DHL\\Logs",
+  "PollSeconds": 5,
+  "AutoPrintPdf": false,
+  "TransmitRecipientEmail": false,
+  "TransmitRecipientPhone": false,
+  "JtlSqlServer": "HIER_SQL_SERVER_UND_INSTANZ_EINTRAGEN",
+  "JtlDatabase": "HIER_JTL_DATENBANK_EINTRAGEN",
+  "SandboxBilling": {
+    "V01PAK": "33333333330101",
+    "V62KP": "33333333336201",
+    "V53WPAK": "33333333335301",
+    "V66WPI": "33333333336601"
+  },
+  "ProductionBilling": {
+    "V01PAK": "Hier DHL Abrechnungsnummer Paket eintragen",
+    "V62KP": "Hier DHL Abrechnungsnummer Kleinpaket eintragen",
+    "V53WPAK": "Hier DHL Abrechnungsnummer Paket International eintragen",
+    "V66WPI": "Hier DHL Abrechnungsnummer Warenpost International eintragen"
+  },
+  "OttoReturnBillingNumber": "Hier DHL Abrechnungsnummer Retoure eintragen",
+  "OttoReturnAddress": {
+    "name1": "Hier Firmenname eintragen",
+    "addressStreet": "Hier Strasse eintragen",
+    "addressHouse": "Hier Hausnummer eintragen",
+    "postalCode": "Hier PLZ eintragen",
+    "city": "Hier Ort eintragen",
+    "country": "Hier Laendercode (z.B. DEU) eintragen"
+  },
+  "SandboxShipper": {
+    "name1": "DHL Sandbox Test",
+    "addressStreet": "Straesschensweg",
+    "addressHouse": "10",
+    "postalCode": "53113",
+    "city": "Bonn",
+    "country": "DEU"
+  }
+}
