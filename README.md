@@ -8,6 +8,18 @@ Das Ziel unserer Weiterentwicklung ist eine praxistaugliche Alternative zu JTL-S
 
 Dies ist kein offizielles Produkt von JTL oder DHL.
 
+## Download: Web-NF v1.15 (Vorabversion)
+
+**[JTL DHL Community Worker v1.15 – Web-NF Edition herunterladen (ZIP)](https://github.com/web-nf-nord/JTL-DHL-Worker/releases/download/v1.15-web-nf/JTL-DHL-Worker-v1.15-Web-NF.zip)**
+
+[Release-Seite und Version ansehen](https://github.com/web-nf-nord/JTL-DHL-Worker/releases/tag/v1.15-web-nf)
+
+Die erste Web-NF-Version ist als **Pre-release** veröffentlicht. Das ZIP-Paket enthält die weiterentwickelten Skripte und Installationsunterlagen. Der Hauptbranch enthält vorerst weiterhin die ursprüngliche Importbasis, **nicht** den vollständigen Stand aus dem ZIP.
+
+**Web-NF-Erweiterungen:** CSV-Versanddatenrückgabe für JTL-Wawi statt direkter SQL-Schreibzugriffe (lesende SQL-Prüfungen bleiben erhalten), zusätzliche Versandarten einschließlich Warenpost International ohne Premium, vereinfachte Production-Zugangseinrichtung mit Zwischenablage sowie anonymisierte Konfigurationsbeispiele.
+
+**Wichtig:** Vor produktivem Einsatz die enthaltene Anleitung lesen und Sandbox- sowie Produktionstests durchführen. Das Paket wurde nicht vollständig in einer fremden JTL-/DHL-Umgebung getestet. Die bisherige PrintAgent-Version bleibt im ursprünglichen Projekt erhalten.
+
 ## Entwicklungsstand
 
 **Die Web-NF-Erweiterungen werden derzeit für die Veröffentlichung vorbereitet.** Der aktuelle Quellcode im Fork entspricht zunächst der übernommenen Importbasis v1.14 (PowerShell 5.1), ergänzt um Server- und Print-Agent-Dateien aus v1.13. Die nachfolgend beschriebenen eigenen Erweiterungen sind noch nicht als aktualisierte Skripte in diesem Repository verfügbar.
