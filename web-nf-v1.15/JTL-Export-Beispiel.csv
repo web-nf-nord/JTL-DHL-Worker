@@ -1,0 +1,2 @@
+PaketRef;Lieferschein;Versandart;Vorname;Nachname;Firma;Adresszusatz;Strasse;Hausnummer;PLZ;Ort;LandISO;Email;Telefon;Mobil;Gewicht
+P1234;1234-001;Versicherter Versand DHL;Max;Mustermann;;;Musterstrasse;1;12345;Musterstadt;DE;;;;0,50
