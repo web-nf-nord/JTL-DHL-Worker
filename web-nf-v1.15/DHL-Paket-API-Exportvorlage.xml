@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ExportVorlage>
+  <Meta>
+    <Name>DHL-Paket-API</Name>
+    <PathTemplate>C:\JTL-DHL\Export</PathTemplate>
+    <FilenameTemplate>JTL-DHL-Export{{ Vorgang.Lieferschein.Belegnummer }} {{ Vorgang.Lieferschein.Auftrag.ExterneAuftragsnummer }}.csv</FilenameTemplate>
+    <OverwriteMode>1</OverwriteMode>
+  </Meta>
+  <Content>
+    <Template>
+      <Header>PaketRef;Lieferschein;Versandart;Vorname;Nachname;Firma;Adresszusatz;Strasse;Hausnummer;PLZ;Ort;LandISO;Email;Telefon;Mobil;Gewicht</Header>
+      <Body>
+{% for paket in Vorgang.Pakete -%}
+P{{ Lieferschein.Pakete.ErstesObjekt.InternePaketnummer }};{{ Vorgang.Lieferschein.Belegnummer }};{{ Vorgang.Versandart.Name }};{{ Lieferschein.Auftrag.Lieferadresse.Vorname }};{{ Lieferschein.Auftrag.Lieferadresse.Name }};{{ Lieferschein.Auftrag.Lieferadresse.Firma }};{{ Lieferschein.Auftrag.Lieferadresse.Adresszusatz }};{{ Lieferschein.Auftrag.Lieferadresse.Straße }};;{{ Lieferschein.Auftrag.Lieferadresse.PLZ }};{{ Lieferschein.Auftrag.Lieferadresse.Ort }};{{ Lieferschein.Auftrag.Lieferadresse.LandISO }};{{ Lieferschein.Auftrag.Lieferadresse.EMail }};{{ Lieferschein.Auftrag.Lieferadresse.Telefon }};{{ Lieferschein.Auftrag.Lieferadresse.Mobil }};{{ Lieferschein.Pakete.ErstesObjekt.Gewicht }}
+{% endfor -%}</Body>
+    </Template>
+  </Content>
+</ExportVorlage>
